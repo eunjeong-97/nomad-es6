@@ -5,7 +5,7 @@
 function functionName(argument) { }
 
 // 익명함수
-function (argument) { }
+// function (argument) { }
 
 // 변수에 익명함수 지정
 const hello = function (argument) { }
