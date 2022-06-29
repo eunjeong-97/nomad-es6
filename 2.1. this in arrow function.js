@@ -1,6 +1,13 @@
 // arrow function을 사용하지 않아야 하는 경우
 // this키워드를 사용할때를 제외하면 대부분의 경우 arrow function을 사용할 수 있다
 
+/*
+이런코드가 있다고 예시를 들어보자
+  <body>
+    <button>Click me</button>
+  </body>
+*/
+
 const button = document.getSelector("button");
 button.addEventListener("click", function () {
     // this: HTMLButtonElement 자바스크립트의 룰이다
